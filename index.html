@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Todos Contra o Mosquito</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-warning">
+      <div class="container">
+        <a href="" class="navbar-brand">
+          <img src="imagens/contra.png" width="100" alt="">
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+          <span class="navbar-toggler-icon">
+          </span>
+        </button>
+        <div class="collapse navbar-collapse menu" id="nav-principal">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#mosquito" class="nav-link">O Mosquito</a>
+            </li>
+            <li class="nav-item">
+              <a href="#doenca" class="nav-link">Doenças</a>
+            </li>
+            <li class="nav-item">
+              <a href="#prevencao" class="nav-link">Prevenção</a>
+            </li>
+            <li class="nav-item">
+              <a href="#videos" class="nav-link">Vídeos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#compartilhe" class="nav-link">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a href="jogo_ini.html" class="btn btn-outline-light">Jogo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 p-0">
+          <div class="img-ds">
+            <div class="image">
+              <img class="img-fluid" src="imagens/banner-dengue.jpg">
+            </div>
+
+
+            <div class="text-lg-center align-self-center direitos">
+              <h1 class="display-4">Juntos Somos Mais Fortes</h1>
+              <p class="h4">
+                Combater o mosquito da dengue é uma responsabilidade de todos nós
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="mosquito" class="conteudoOne">
+    <div>
+      <div class="barra">
+        <h2>O Mosquito</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-md-9 d-flex">
+          <div class="align-self-center textoMosquito">
+            <h4>O Aedes aegypti</h4>
+            <p>
+              O mosquito transmissor do vírus da dengue, zika e chikungunya é o <strong>Aedes aegypti</strong> . Ele se
+              caracteriza pelo
+              tamanho pequeno, cor marrom médio e por nítida faixa curva branca de cada lado do toráx. Nas patas,
+              apresenta listras brancas.
+            </p>
+            <h4>Quais os hábitos dele?</h4>
+            <p>
+              O Aedes aegypti vive de 35 a 45 dias, sendo que sua alimentação, reprodução e postura dos ovos ocorre
+              durante o dia. A atividade do mosquito ocorre preferencialmente no início da manhã e final de tarde.
+              Entretanto estudos tem indicado a possibilidade de que este período esteja se ampliando. As fêmeas do
+              mosquito necessitam do sangue humano para a maturação dos ovos. Dessa forma, é nesse momento que pode
+              ocorrer a transmissão das doenças (tanto da transmissão do vírus aos seres humanos, como a infecção do
+              mosquito ao picar uma pessoa doente no período de viremia).
+            </p>
+
+            <h4>Ciclo de Reprodução</h4>
+            <p>
+              A fêmea deposita até 100 ovos nas paredes internas de recipientes que tenham ou que possam acumular água.
+              A fêmea escolhe mais de um local para realizar cada postura, o que garante maior sucesso reprodutivo, ou
+              seja, podem nascer insetos de vários recipientes no mesmo ambiente. Nesses locais os ovos podem durar até
+              um ano e meio. Em contato com a água, os ovos desenvolvem-se rapidamente em larvas, que dão origem às
+              pupas. Delas, surge o adulto num ciclo de, aproximadamente, 7 dias. Por isso a importância de que cada um
+              observe o seu ambiente ao menos uma vez por semana para eliminar possíveis criadouros do mosquito Aedes
+              aegypti.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 centerImage">
+          <img class="img-fluid imgmosquito" src="imagens/mosquito.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="doenca" class="conteudoTwo">
+    <div id="barraDoenca" class="barra">
+      <h2>As doenças</h2>
+      <h5>São três doenças em um só mosquito</h5>
+    </div>
+    <nav>
+      <div class="nav nav-tabs nav-justified" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-dengue-tab" data-toggle="tab" href="#nav-dengue" role="tab"
+          aria-controls="nav-home" aria-selected="true">Dengue</a>
+        <a class="nav-item nav-link" id="nav-chiku-tab" data-toggle="tab" href="#nav-chiku" role="tab"
+          aria-controls="nav-profile" aria-selected="false">Chikungunya</a>
+        <a class="nav-item nav-link" id="nav-zika-tab" data-toggle="tab" href="#nav-zika" role="tab"
+          aria-controls="nav-contact" aria-selected="false">Zika</a>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-dengue" role="tabpanel" aria-labelledby="nav-dengue-tab">
+        <div class="row">
+          <div class="col-xl-7 col-md-12  d-flex">
+            <div class="align-self-center textoMosquito">
+              <h4>O que é?</h4>
+              <p>
+                É uma infecção causada por um vírus, que apresenta quatro sorotipos diferentes, DENV1, DENV2, DENV3 e
+                DENV4.
+                Por isso, é possível contrair a doença até quatro vezes, já que a infeção por um sorotipo não gera
+                imunidade
+                para os demais. A chance de a doença evoluir para uma forma grave é maior nas pessoas que já tiveram a
+                infecção anteriormente do que em pessoas que nunca contraíram o vírus. Os sintomas são: febre, dor de
+                cabeça,
+                dores musculares e nas articulações, dor atrás dos olhos e manchas vermelhas na pele. A doença pode
+                evoluir
+                para uma forma mais grave e ocasionar sangramento na pele, mucosas, órgãos internos e até lelet à morte.
+              </p>
+              <h4>Como se transmite?</h4>
+              <p>A dengue é transmitida pela picada da fêmea do mosquito Aedes aegypti infectada com o vírus. A
+                principal
+                medida é eliminar os criadouros do mosquito.</p>
+              <h4>Diagnóstico</h4>
+              <p>
+                É realizado por exames laboratoriais que indicam a
+                presença
+                do vírus ou de anticorpos da doença.
+              </p>
+              <h4>Tratamento</h4>
+              <p>Não existe medicamento específico contra a dengue. Os sintomas podem ser aliviados com o uso de
+                remédios para
+                dor ou febre, prescritos pelo médico. Para prevenir o agravamento da doença, é importante ingerir
+                bastante
+                líquido.</p>
+              <p><strong>
+                  Não devem ser usados medicamentos à base de ácido acetilsalicílico (Aspirina, Melhoral, AAS) e
+                  anti-inflamatórios, pois podem aumentar o risco de hemorragias.
+                </strong></p>
+            </div>
+          </div>
+
+          <div class="col-xl-5 col-md-0">
+            <img class="img-fluid w-100" src="imagens/sintomasdadengue.jpg" alt="">
+          </div>
+
+        </div>
+
+
+      </div>
+      <div class="tab-pane fade" id="nav-chiku" role="tabpanel" aria-labelledby="nav-chiku-tab">
+        <div class="row">
+          <div class="col-xl-7 col-md-12 d-flex">
+            <div class="align-self-center textoMosquito">
+              <h4>O que é?</h4>
+              <p>
+                É uma infecção viral, que se apresenta sob a forma aguda (com sintomas abruptos de febre alta, dor
+                articular intensa, dor de cabeça e dor muscular, podendo ocorrer erupções cutâneas) e pode evoluir para
+                as fases: subaguda (com persistência de dor articular) e crônica (com persistência de dor articular por
+                meses ou anos). O nome da doença deriva de uma expressão usada na Tanzânia que significa "aquele que se
+                curva".
+              </p>
+              <h4>Como se transmite?</h4>
+              <p>A doença é transmitida pela picada da fêmea do mosquito Aedes aegypti infectada pelo vírus.</p>
+              <h4>Diagnóstico</h4>
+              <p>
+                O diagnóstico é realizado por exames laboratoriais ou pela avaliação dos sinais e sintomas apresentados
+                e pela presença da pessoa em áreas com detecção do mosquito transmissor ou com casos de dengue nos 14
+                dias anteriores ao ínicio do quadro.
+              </p>
+              <h4>Tratamento</h4>
+              <p>Não existe medicamento específico contra a febre de chikungunya, mas os sintomas podem ser aliviados
+                com o uso de remédios para dor ou febre, prescritos pelo médico.</p>
+              <p><strong>
+                  Não devem ser usados medicamentos à base de ácido acetilsalicílico (Aspirina, Melhoral, AAS) e
+                  anti-inflamatórios, pois podem aumentar o risco de hemorragias.
+                </strong></p>
+            </div>
+          </div>
+
+          <div class="col-xl-5 col-md-0">
+            <img class="img-fluid w-100" src="imagens/SINTOMAS-chikungunya-140716.jpg" alt="">
+          </div>
+
+        </div>
+      </div>
+      <div class="tab-pane fade" id="nav-zika" role="tabpanel" aria-labelledby="nav-zika-tab">
+
+        <div class="row">
+          <div class="col-xl-7 col-md-12">
+            <div class="align-self-center textoMosquito">
+              <h4>O que é?</h4>
+              <p>
+                É uma infecção viral e seus sintomas são vermelhidão no corpo com coceira, olhos avermelhados sem
+                coceira e sem secreção, febre, inchaço e dores nas articulações.
+              </p>
+              <h4>Como se transmite?</h4>
+              <p>A doença é transmitida pela picada fêmea do mosquito Aedes aegypti infectado pelo vírus.</p>
+              <h4>Diagnóstico</h4>
+              <p>
+                É realizado por exames laboratoriais  que indicam a
+                presença do vírus ou de anticorpos da doença.
+              </p>
+              <h4>Tratamento</h4>
+              <p>Não existe medicamento específico contra a febre do zika vírus, mas os sintomas podem ser aliviados com
+                o uso de remédios para dor ou febre, prescritos pelo médico.</p>
+              <p><strong>
+                  Não devem ser usados medicamentos à base de ácido acetilsalicílico (Aspirina, Melhoral, AAS) e
+                  anti-inflamatórios, pois podem aumentar o risco de hemorragias.
+                </strong></p>
+            </div>
+          </div>
+
+          <div class="col-xl-5 col-md-0">
+            <img class="img-fluid w-100" src="imagens/SINTOMAS-zika-140716.jpg" alt="">
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+  <div class="conteudoTwo">
+    <img class="img-fluid w-100" src="imagens/diferencas.jpg" alt="">
+  </div>
+
+  <section id="prevencao" class="conteudoTwo">
+    <div id="barraPrevencao" class="barra">
+      <h2>Prevenção</h2>
+      <h5>Prevenir é o melhor remédio</h5>
+    </div>
+    <div class="row">
+      <div class="col-xl-7 col-md-12 d-flex">
+        <div class="align-self-center textoMosquito">
+          <h4>Criadouros</h4>
+          <p>O Aedes aegypti tem como criadouros os mais letiados recipientes que possam acumular água parada,
+            domiciliares e peridomiciliares. Os mais comuns são pneus sem uso, latas, garrafas, pratos dos vasos de
+            plantas, caixas d’água descobertas, calhas, piscinas e vasos sanitários sem uso. A fêmea do mosquito pode,
+            também, depositar seus ovos nas paredes internas de bebedouros de animais e em ralos desativados, lajes e em
+            plantas como as bromélias.</p>
+          <h4>O que fazer?</h4>
+          <h5>Veja dicas para nos prevenir do mosquito da dengue</h5>
+          <ul>
+            <li>
+              Evite usar pratos nos vasos de plantas. Se usar, coloque areia até a borda;
+            </li>
+            <li>
+              Guarde garrafas com o gargalo virado para baixo;
+            </li>
+            <li>
+              Mantenha lixeiras tampadas;
+            </li>
+            <li>
+              Deixe os tanques utilizados para armazenar água sempre vedados, sem qualquer abertura, principalmente as
+              caixas d’água;
+            </li>
+            <li>
+              Plantas como bromélias devem ser evitadas, pois acumulam água.
+            </li>
+            <li>
+              Trate a água da piscina com cloro e limpe-a uma vez por semana;
+            </li>
+            <li>
+              Mantenha ralos fechados e desentupidos;
+            </li>
+            <li>
+              Lave com escova os potes de comida e de água dos animais, no mínimo uma vez por semana;
+            </li>
+            <li>
+              Retire a água acumulada em lajes;
+            </li>
+            <li>
+              Limpe as calhas, evitado que galhos ou outros objetos não permitam o escoamento adequado da água;
+            </li>
+            <li>
+              Dê descarga, no mínimo uma vez por semana, em vasos sanitários pouco usados e mantenha a tampa sempre
+              fechada;
+            </li>
+            <li>
+              Evite acumular entulho, pois podem se tornar criadouros do mosquito.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-xl-5 col-md-0">
+        <img class="img-fluid w-100" src="imagens/prevencao.png" alt="">
+      </div>
+
+    </div>
+  </section>
+  <div class="conteudoTwo">
+    <img class="img-fluid w-100" src="imagens/banner3.png" alt="">
+  </div>
+  <section id="videos" class="conteudoTwo">
+    <div id="barraVideo" class="barra">
+      <h2>Videos</h2>
+      <h5>Assista esses vídeos com mais informações para você</h5>
+    </div>
+
+    <div id="video">
+      <div class="row">
+        <div class="col-md-4 d-flex">
+          <div class="container">
+            <h5>Finep Contra o Aedes</h5>
+            <p>
+              Neste vídeo a finep mostra que devemos fazer a nossa parte e cobrar do nosso vizinho
+            </p>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WlniEHSotMI"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-4 d-flex">
+          <div class="container">
+            <h5>Saiba como combater o Aedes aegypti</h5>
+            <p>
+              Neste vídeo a TV Câmara dá dicas de como evitar a proliferação do mosquito Aedes aegypti em casa.
+            </p>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eFK01DtY4cE"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex">
+          <div class="container">
+            <h5>Você já combateu o mosquito hoje?</h5>
+            <p>Neste vídeo o Ministério da Saúde nos convoca para lutar na guerra contra o mosquito</p>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JLYeJTX7ZrU"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="compartilhe" class="conteudoTwo pb-2">
+    <div id="barraCompartilhe" class="barra">
+      <h2>Compartilhe sua História</h2>
+      <h5>Conte pra gente o que você tem feito para lutar contra o mosquito</h5>
+    </div>
+    <div class="container formulario pt-4 pb-4 mt-2">
+      <form>
+        <div class="form-group">
+          <label for="name">Nome</label>
+          <input type="text" name="" class="form-control" id="" placeholder="Digite seu nome">
+        </div>
+        <div class="form-group">
+          <label for="">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="name@example.com">
+          <small id="emailHelp" class="form-text text-muted">Não compartilharemos seu e-mail com ninguém.</small>
+        </div>
+        <label for="">Você já teve Dengue, Chikungunya ou Zika? </label>
+        <div class="form-check">
+         
+          <input class="form-check-input" type="radio" name="casoDengue" id="casoDengue1" onclick="doenca('S')">
+          <label class="form-check-label" for="casoDengue1">
+            Sim
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="casoDengue" id="casoDengue2" onclick="doenca('N')">
+          <label class="form-check-label" for="casoDengue2">
+            Não
+          </label>
+        </div>
+
+        <div id="opcaoDoenca">
+          <label for="">Quais destas doenças você teve?</label>
+        <br>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="chkDengue" value="dengue">
+          <label class="form-check-label" for="chkDengue">Dengue</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="chkChikungunya" value="chikungunya">
+          <label class="form-check-label" for="chkChikungunya">Chikungunya</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="chkZika" value="zika">
+          <label class="form-check-label" for="chkZika">Zika</label>
+        </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="">Sua história</label>
+          <textarea class="form-control" id="" rows="10"></textarea>
+        </div>
+       
+        <div class="text-center">
+          <button class="btn btn-primary btn-lg btn_frm" type="submit"> Enviar </button>
+        </div>
+
+      </form>
+    </div>
+
+  </section>
+
+  
+
+  <footer>
+    <div class="container-fluid row fim">
+      <span><img src="imagens/contra.png" alt="logo" width="80"> </span>
+      <span class="texto-fim"> <strong>Todos Contra o Mosquito</strong> <br> Vamos juntos acabar com o mosquito<br>
+      </span>
+    </div>
+
+    <hr>
+    <div class="direitos container">
+      &copy; Todos os direitos reservados
+      <br>Desenvolvido por: Fábio Carneiro <br>
+
+      <a href="https://github.com/fabioscarneiro" target="_blank"> <img src="imagens/git.png" class="img-fluid"
+          width="40" alt=""></a>
+      <a href="https://www.linkedin.com/in/f%C3%A1bio-carneiro-69530ab1/" target="_blank"> <img
+          src="imagens/linkdin.png" class="img-fluid" width="40" alt=""></a>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
