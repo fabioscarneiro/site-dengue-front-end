@@ -21,6 +21,8 @@
 
 <h2> Sobre o projeto </h2>
 
+https://scarneiro-dengue.netlify.app/
+
 Projeto desenvolvido para a disciplina de Desenvolvimento Web do Instituto Federal de São Paulo. O site que aborda uma campanha para o combate a dengue foi desenvolvido em HTML 5 utilizando a linguagem de programação Javascript com o framework Bootstrap. O site é apenas em front-end, sem qualquer interação com back-end.
 
 <h2> Layout mobile </h2>
